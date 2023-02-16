@@ -1,0 +1,130 @@
+html{
+  overflow-x:hidden;
+  
+  }
+
+
+
+/*corpo*/
+body {
+    width: 1000px;
+    margin: 1px auto;
+    background-color: #1C1C1C;
+    padding: 0 20px 180px 20px;
+    border: 7px solid #00FF00;
+  }
+
+
+
+/*Titulo*/
+ 
+h1 {
+    font: 110px arial, sans-serif;
+    margin: 30;
+    padding: 40px 0;
+    color: #00FF00;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0); }
+
+    /*subtitulo*/
+
+    h2 {
+        font: 30px arial, sans-serif;
+        margin: 30;
+        padding: 40px 0;
+        color: #00FF00;
+        text-shadow: 2px 2px 1px rgb(0, 0, 0); }
+ 
+
+
+:root {
+  --cor-primaria-topologia: #00FF00;
+  --cor-hover-topologia: #000000;
+  --cor-secundaria-topologia: #000000;
+  
+  --cor-primaria-tipos: #00FF00;
+  --cor-hover-tipos: #000000;
+  --cor-secundaria-tipos: #000000;
+
+  --cor-primaria-arquitetura: #00FF00;
+  --cor-hover-arquitetura: #000000;
+  --cor-secundaria-arquitetura: #000000;
+
+  --cor-primaria-meios: #00FF00;
+  --cor-hover-meios: #000000;
+  --cor-secundaria-meios: #000000;
+
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .3s;
+  border-radius: 5px;
+}
+
+/*SUCCESS*/
+.btn-topologia {
+  background-color: var(--cor-primaria-topologia);
+  outline: none;
+  color: var(--cor-secundaria-topologia)
+}
+
+.btn-topologia:hover {
+  background-color: var(--cor-hover-topologia);
+}
+
+.btn-topologia:active {
+  color:var(--cor-primaria-success);
+  background-color: var(--cor-secundaria-topologia);
+}
+
+/*INFO*/
+.btn-tipos {
+  background-color: var(--cor-primaria-tipos);
+  outline: none;
+  color: var(--cor-secundaria-tipos)
+}
+
+.btn-tipos:hover {
+  background-color: var(--cor-hover-tipos);
+}
+
+.btn-tipos:active {
+  color:var(--cor-primaria-info);
+  background-color: var(--cor-secundaria-tipos);
+}
+
+/*DANGER*/
+.btn-arquitetura {
+  background-color: var(--cor-primaria-arquitetura);
+  outline: none;
+  color: var(--cor-secundaria-arquitetura)
+}
+
+.btn-arquitetura:hover {
+  background-color: var(--cor-hover-arquitetura);
+}
+
+.btn-arquitetura:active {
+  color:var(--cor-primaria-arquitetura);
+  background-color: var(--cor-secundaria-arquitetura);
+}
+
+ /* meios*/
+
+ .btn-meios {
+  background-color: var(--cor-primaria-meios);
+  outline: none;
+  color: var(--cor-secundaria-meios)
+}
+
+.btn-meios:hover {
+  background-color: var(--cor-hover-meios);
+}
+
+.btn-meios:active {
+  color:var(--cor-primaria-meios);
+  background-color: var(--cor-secundaria-meios);
+}
